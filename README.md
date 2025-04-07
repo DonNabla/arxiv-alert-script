@@ -45,7 +45,7 @@ EMAIL_SMTP_SERVER=smtp.gmail.com
 EMAIL_SMTP_PORT=587
 TO_EMAIL=recipient_email@example.com
 ```
-⚠️ For Gmail, you’ll need to generate an App Password and enable 2FA.
+⚠️ For Gmail, you’ll need to generate an [App Password](https://support.google.com/mail/answer/185833?hl=en) and enable 2FA.
 
 ### 3. Run it manually (for testing)
 
@@ -90,4 +90,4 @@ CATEGORIES_EXCLUDED = ["astro-ph.CO", "astro-ph.GA"]
 ```
 
 ### 🧠 Credits
-Created by Maxime (and ChatGPT 😄). Inspired by the need to stay current without refreshing arXiv all day, and offering more filtering option.
+Created by Maxime Pierre, with the help of ChatGPT. Inspired by the need to stay current without refreshing arXiv all day, and offering more filtering option.
