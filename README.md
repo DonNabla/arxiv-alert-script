@@ -60,7 +60,7 @@ To run every day at 9:00 AM:
 ```bash
 crontab -e
 ```
-Then add this line (adjust the paths for your machine):
+Then add this line (adjust the paths for your machine, using `which python` and `pwd` to get your python and script paths):
 
 ```bash
 0 9 * * * /opt/anaconda3/envs/arxiv-alert/bin/python /Users/youruser/Code/arxiv_alert/arxiv_alert.py >> /Users/youruser/Code/arxiv_alert/cron.log 2>&1
